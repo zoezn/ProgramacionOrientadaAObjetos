@@ -1,0 +1,32 @@
+package com.company;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+        System.out.println(Ingrese su nombre );
+        String jugador = scanner.nextLine();
+        System.out.println(Elija una opcion Piedra(1), Papel (2), Tijera(3));
+        Integer opcionJugador = scanner.nextInt();
+        Integer seleccionCompu = (int)(Math.random()  3) + 1;
+        System.out.println(La computadora ya escogio...);
+
+
+    }
+
+    public static Integer cualGana(Integer opcionJugador, Integer seleccionCompu){
+        int contadorJugador = 0;
+        int contadorCompu = 0;
+        while(opcionJugador != ){
+
+        }
+    }
+}
+
+
+
+int <IntVariableName> = Integer.parseInt (<StringVariableName>);
+
